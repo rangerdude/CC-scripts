@@ -1,0 +1,13 @@
+test
+
+
+turtle.back()
+for i=1,10 do
+	turtle.down()
+	if turtle.detect() == true then
+		textutils.slowPrint(os.version())
+	end
+end
+modem.open(199)
+modem.transmit(199, 198, os.getComputerLabel())
+
