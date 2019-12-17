@@ -1,3 +1,7 @@
+-- credit goes to Anavrins   https://github.com/xAnavrins   and Opus OS https://github.com/xAnavrins and  Kepler155c  https://github.com/kepler155c/opus
+
+
+
 local modem = peripheral.find("modem", function(n,o) return o.isWireless() end)
 local origin = nil
 local toid = 31415

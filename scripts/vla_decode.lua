@@ -1,5 +1,6 @@
 -- VLA decoder for Opus OS
 -- Decodes "global_message" events and sends raw data as an virtual modem
+-- credit goes to Anavrins   https://github.com/xAnavrins   and Opus OS https://github.com/xAnavrins and  Kepler155c  https://github.com/kepler155c/opus
 
 local Event = require("opus.event")
 
