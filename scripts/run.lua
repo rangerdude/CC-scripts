@@ -1,1 +1,1 @@
-shell.run("monitor top /tank.lua")
+shell.run("cshell.lua")
