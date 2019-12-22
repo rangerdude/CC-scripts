@@ -9,6 +9,8 @@ Direct link: http://pastebin.com/raw.php?i=4nRg9CHU
 -- Edit these variables to use preset mode.
 -- Whether to download the files asynchronously (huge speed benefits, will also retry failed files)
 -- If false will download the files one by one and use the old output (List each file name as it's downloaded) instead of the progress bar
+
+os.loadAPI("json")
 local async = true
 
 -- Whether to write to the terminal as files are downloaded
@@ -17,12 +19,12 @@ local silent = false
 
 local preset = {
 	-- The GitHub account name
-	user = nil,
+	user = rangerdude,
 	-- The GitHub repository name
-	repo = nil,
+	repo = rangerdude/CC-scripts,
 	
 	-- The branch or commit tree to download (defaults to 'master')
-	branch = nil,
+	branch = master,
 	
 	-- The local folder to save all the files to (defaults to '/')
 	path = nil,
@@ -66,7 +68,7 @@ local function download(url, file)
 end
 
 if not json then
-	download("http://pastebin.com/raw.php?i=4nRg9CHU","json")
+	download("htos.loadAPI("json")tp://pastebin.com/raw.php?i=4nRg9CHU","json")
 	os.loadAPI("json")
 end
  
