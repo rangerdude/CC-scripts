@@ -16,7 +16,7 @@ local gridColumns = {
 	{ heading = 'Label',  key = 'label'    },
 	{ heading = 'Dist',   key = 'distance', align = 'right' },
 	{ heading = 'Status', key = 'status'   },
-	{ heading = 'ID', key = 'ID'   }
+	{ heading = 'ID', key = 'id'   }
 }
 
 local config = Config.load('network', { })
