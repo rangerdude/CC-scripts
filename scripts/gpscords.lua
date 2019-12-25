@@ -1,7 +1,8 @@
 -- rednet.open("back")
-id = os.computerID()
+-- id = os.computerID()
+l = os.computerLabel()
 peripheral.find("modem", rednet.open)
-rednet.host(id,"ranger")
+rednet.host(l,"ranger")
 
 -- for i = 1,3 do
 	-- startup write coords to file
@@ -16,7 +17,7 @@ rednet.host(id,"ranger")
 	f.write(textutils.serialise(coords))
 	f.close()
 -- end	
-rednet.broadcast(id ,textutils.serialise(coords))
+rednet.broadcast(id,l ,textutils.serialise(coords))
 
 
 
