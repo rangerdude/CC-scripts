@@ -5,12 +5,10 @@ Developed by apemanzilla.
 This requires ElvishJerricco's JSON parsing API.
 Direct link: http://pastebin.com/raw.php?i=4nRg9CHU
 ]]--
-
+loadAPI(gitgetapt.lua)
 -- Edit these variables to use preset mode.
 -- Whether to download the files asynchronously (huge speed benefits, will also retry failed files)
 -- If false will download the files one by one and use the old output (List each file name as it's downloaded) instead of the progress bar
-
-os.loadAPI("json")
 local async = true
 
 -- Whether to write to the terminal as files are downloaded
@@ -21,7 +19,7 @@ local preset = {
 	-- The GitHub account name
 	user = rangerdude,
 	-- The GitHub repository name
-	repo = rangerdude/CC-scripts,
+	repo = nil,
 	
 	-- The branch or commit tree to download (defaults to 'master')
 	branch = master,
@@ -68,7 +66,7 @@ local function download(url, file)
 end
 
 if not json then
-	download("htos.loadAPI("json")tp://pastebin.com/raw.php?i=4nRg9CHU","json")
+	download("http://pastebin.com/raw.php?i=4nRg9CHU","json")
 	os.loadAPI("json")
 end
  

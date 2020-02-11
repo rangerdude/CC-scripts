@@ -13,7 +13,7 @@ rednet.host(l,"ranger")
 	["y"]=y,
 	["z"]=z,
 	}
-	local f=fs.open("/gpscords" , "a")
+	local f=fs.open("/gpscords.txt" , "a")
 	f.write(textutils.serialise(coords))
 	f.close()
 -- end	

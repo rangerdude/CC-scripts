@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sele",
+				"turtle.select"
+			],
+			[
 				"com",
 				"os.getComputerLabel"
 			],
@@ -20,60 +24,11 @@
 	"buffers":
 	[
 		{
-			"file": "Network.lua",
-			"settings":
-			{
-				"buffer_size": 6955,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "vla_decode.lua",
-			"settings":
-			{
-				"buffer_size": 847,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vla_receiver.lua",
-			"settings":
-			{
-				"buffer_size": 2471,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snmp.lua",
+			"file": "/home/bprice/github/opus/sys/apps/network/snmp.lua",
 			"settings":
 			{
 				"buffer_size": 5123,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "test\n\n\nturtle.back()\nfor i=1,10 do\n\tturtle.down()\n\tif turtle.detect() == true then\n\t\ttextutils.slowPrint(os.version())\n\tend\nend\nmodem.open(199)\nmodem.transmit(199, 198, os.getComputerLabel())\n\n",
-			"file": "test",
-			"file_size": 193,
-			"file_write_time": 132207176334198457,
-			"settings":
-			{
-				"buffer_size": 193,
-				"line_ending": "Unix",
-				"name": "test"
-			}
-		},
-		{
-			"contents": "Remote path defaults to the root of the repo.\n Path defaults to the download folder.\n Branch defaults to master.\n If you want to leave an option empty use a dot.\n Example: github johnsmith hello-world . foo\n Everything inside the directory foo will be \n downloaded to downloads/hello-world/.\n\n",
-			"settings":
-			{
-				"buffer_size": 293,
-				"line_ending": "Unix",
-				"name": "Remote path defaults to the root of the repo."
 			}
 		}
 	],
@@ -113,11 +68,68 @@
 	},
 	"file_history":
 	[
+		"/home/bprice/.local/share/ccemux/computer/0/number.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/util.lua",
+		"/home/bprice/Downloads/snmp.lua",
+		"/home/bprice/github/CC-scripts/scripts/Network.lua",
+		"/home/bprice/.local/share/ccemux/computer/0/number",
+		"/home/bprice/iptables.up.rules",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/package.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/netdaemon.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/init/5.network.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/init/1.device.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/init/3.relay.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/packages.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/init/6.packages.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/init/4.user.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/gps.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/crypto/ecc/init.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/http/pastebin.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/alternate.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/entry.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/injector.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/config.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/git.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/terminal.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/sync.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/socket.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/boot/opus.boot",
+		"/home/bprice/github/ranger-stuff/opus/sys/modules/opus/map.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/kernel.lua",
+		"/home/bprice/github/ranger-stuff/opus/startup.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/proxy.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/Network.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/telnet.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/vnc.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/vnc.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/transport.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/telnet.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/snmp.lua",
+		"/home/bprice/github/ranger-stuff/opus/sys/apps/network/samba.lua",
+		"/home/bprice/.local/share/ccemux/computer/5/usr/apps/Network.lua",
+		"/home/bprice/.local/share/ccemux/computer/5/sys/apps/network/vnc.lua",
+		"/home/bprice/.local/share/ccemux/computer/5/sys/apps/vnc.lua",
+		"/home/bprice/.local/share/ccemux/computer/5/sys/apps/telnet.lua",
+		"/home/bprice/.local/share/ccemux/computer/5/sys/apps/network/telnet.lua",
+		"/home/bprice/github/CC-scripts/scripts/gitget.lua",
+		"/home/bprice/github/opus-apps/recipeBook/etc/recipeBook.db",
+		"/home/bprice/github/CC-scripts/scripts/farmtest.lua",
+		"/home/bprice/github/CC-scripts/scripts/farmer.lua",
+		"/home/bprice/github/CC-scripts/scripts/gitgetapi.lua",
+		"/home/bprice/github/CC-scripts/scripts/planter.lua",
+		"/home/bprice/kristforge/kristforg/src/miner/miner.rs",
+		"/home/bprice/Downloads/MCServerFromPH/config/opencomputers/default.recipes",
+		"/home/bprice/github/CC-scripts/scripts/run.lua",
+		"/home/bprice/github/CC-scripts/scripts/snmp.lua",
+		"/home/bprice/github/CC-scripts/scripts/goto2.lua",
+		"/home/bprice/github/CC-scripts/scripts/31_startup.lua",
+		"/home/bprice/github/CC-scripts/scripts/vla_decode.lua",
+		"/home/bprice/github/CC-scripts/scripts/vla_receiver.lua",
 		"/home/bprice/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -131,6 +143,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"port",
+			"99",
+			"19999",
+			"199",
+			"999",
+			"telnet",
+			"99",
+			"port",
+			"cpu3",
+			"json",
+			"199",
 			"label",
 			"port"
 		],
@@ -155,19 +178,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Network.lua",
+					"file": "/home/bprice/github/opus/sys/apps/network/snmp.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6955,
+						"buffer_size": 5123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1423,
-								1423
+								0,
+								0
 							]
 						],
 						"settings":
@@ -181,156 +204,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "vla_decode.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 847,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "vla_receiver.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "snmp.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2114,
-								2114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1336.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "test",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"auto_name": "test",
-							"syntax": "Packages/ComputerCraft Package/ComputerCraft.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 293,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								293,
-								293
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Remote path defaults to the root of the repo.",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -359,15 +239,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Lua/Lua.sublime-build",
 	"project": "cc.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
